@@ -2,6 +2,10 @@ html, body {
     height: 100%;
 }
 
+.pt-3 {
+    padding-top: 15px;
+}
+
 body {
     background-color: #FAFAFA !important;
     margin-bottom: 0px !important;
