@@ -4,6 +4,7 @@ html, body {
 
 body {
     background-color: #FAFAFA !important;
+    margin-bottom: 0px !important;
 }
 
 .bg-white {
@@ -12,6 +13,10 @@ body {
 
 .mt-inverse-3 {
     margin-top: -25px;
+}
+
+.footer {
+    margin-bottom: 0px !important;
 }
 
 .bg-welcome {
@@ -69,4 +74,8 @@ ul.s_posts {
   }
   @media (max-width: 479px) {
     li.s_post { flex-basis: 100%; }
+  }
+  
+  .sub-footer {
+      padding: 20px !important;
   }
