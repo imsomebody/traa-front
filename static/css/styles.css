@@ -11,6 +11,24 @@ body {
     margin-bottom: 0px !important;
 }
 
+.s_post-inner:hover {
+    -webkit-box-shadow: 9px 10px 13px -2px rgba(0,0,0,0.83);
+    -moz-box-shadow: 9px 10px 13px -2px rgba(0,0,0,0.83);
+    box-shadow: 9px 10px 13px -2px rgba(0,0,0,0.83);
+}
+
+.s_post-inner::hover::after {
+    opacity: 1;
+}
+
+a {
+    transition: all 0.3s ease-in-out;
+}
+
+.s_post-inner {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
 .bg-white {
     background: white !important;
 }
